@@ -5,8 +5,12 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
+//const session = require("express-session");
+//const passport = require("passport");
+//const passportLocalMongoose = require("password-local-mongoose");
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
+
 //const md5 = require("md5");
 //const encrypt = require("mongoose-encryption");
 
